@@ -1,0 +1,1 @@
+export { default  as useSystemThemeDetector } from './hooks/use-system-theme'

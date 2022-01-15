@@ -1,0 +1,1 @@
+export const MEDIA_QUERY_MATCHER = '(prefers-color-scheme: dark)';
