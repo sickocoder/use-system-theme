@@ -1,9 +1,9 @@
 {
   "name": "@sickocoder/use-system-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/josetony"
+    "registry": "https://npm.pkg.github.com/sickocoder"
   },
   "scripts": {
     "rollup": "rollup -c"
