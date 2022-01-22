@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/josetony"
+    "registry": "https://npm.pkg.github.com/sickocoder"
   },
   "scripts": {
     "rollup": "rollup -c"
