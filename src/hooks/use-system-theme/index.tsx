@@ -1,12 +1,11 @@
 import { useEffect, useState } from 'react';
-import { UseSystemThemeDetectorReturn } from './use-system-button.types';
 import { MEDIA_QUERY_MATCHER } from './use-system-theme.constants';
 
 
 
 
 
-const useSystemThemeDetector = (): UseSystemThemeDetectorReturn => {
+const useSystemThemeDetector = () => {
   const getCurrentTheme = () => window.matchMedia(MEDIA_QUERY_MATCHER).matches;
   const [isDark, setIsDark] = useState<boolean | undefined>(undefined);
 
