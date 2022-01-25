@@ -1,6 +1,6 @@
 {
   "name": "@sickocoder/use-system-theme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/sickocoder"
@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "peerDependencies": {
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.1.3",
     "@rollup/plugin-typescript": "^8.3.0",
